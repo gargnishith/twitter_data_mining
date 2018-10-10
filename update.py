@@ -2,6 +2,7 @@
 The JSON response from the Twitter API is available in the attribute _json (with a leading underscore)
 which is not the raw JSON string, but a dictionary."""
 
+import JSON 
 def process_or_store(tweet):
     print(json.dumps(tweet))
 
